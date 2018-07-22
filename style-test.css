@@ -1,0 +1,28 @@
+.wrapper {
+	   width: 50vw;
+	   margin: 30vh auto;
+	   height: 60vh; 
+}
+.progressbar {
+        position: relative;
+        width: 100%;
+        height: 2%;
+        border: 1px solid black;
+		height: 30px;
+}
+.progress {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: #7cc4ff;
+        transition: all 1s linear;
+}
+div.step {
+        position: relative;
+        border-right: 1px solid black;
+        height: 100%;
+        float: left;
+        z-index: 999;
+}
