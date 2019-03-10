@@ -1,3 +1,6 @@
+body{
+	background-color: #cccccc; 
+}
 .wrapper {
 	   width: 50vw;
 	   margin: 30vh auto;
